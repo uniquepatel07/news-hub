@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniqueSports</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <h1 class="title">UniqueSportsNews</h1>
+        <a href="http://localhost:5000/home/new">Create News</a>
+    </div>
+    
+
+    <% for(item of data) { %>
+        <div class="post">
+            <h3 class="username">@<%= item.username %></h3>
+            <h3 class="news"><%= item.news %></h3>
+            <img src="<%= item.img %>" class="img-tag" >
+            <br><br>
+            
+        </div>
+    <% } %>
+</body>
+</html>

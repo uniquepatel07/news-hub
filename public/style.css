@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+    padding: 100px 200px;
+}
+.title{
+    font-size: 2rem;
+    font-family: monospace;
+    background-color: lightgrey;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    border-radius: 5px;
+
+}
+a{
+    padding: 10px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.post{
+    display: inline-block;
+    padding: 20px;
+    /* background-color: blueviolet; */
+    height: auto;
+    width: 400px;
+}
+.username{
+    padding: 5px;
+}
+
+.post .news{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(58, 54, 54);
+}
+.img-tag{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+textarea{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 3px;
+}
